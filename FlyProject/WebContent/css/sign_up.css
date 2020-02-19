@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+   
+
+   
+    .regis1{text-align: center; padding: 50px 0;}
+
+
+    .main{margin:0 auto; width: 40%;  padding:5% 1%; border-radius: 10px; background: white;}
+
+
+    .main p {font-size: 17px; font-weight: 900; text-align: left; margin: 35px 0 0;}
+
+
+    .regis{background: #eaf0f3; width: 100%; height: 1350px; padding-top: 100px; }
+
+
+    .regis2 ul {display: flex;}
+    .regis2 ul li {flex: 1;}
+
+    .regis3 ul {display: flex;}
+    .regis3 ul li {flex: 1;}
+
+    .regis4 ul {display: flex;}
+    .regis4 ul li {flex: 1;}
+
+    .regis5 ul {display: flex;}
+    .regis5 ul li {flex: 1;}
+
+    .regis6 ul {display: flex;}
+    .regis6 ul li {flex: 1;}
+
+    .regis3 input, .regis4 input, .regis5 input{width: 100%; margin: 3px 0 0 0; }
+    .regis2 input {width: 46.8%;}
+    .regis4 input {width: 93.9%;}
+    .regis5_1 input{width:96%;}
+    .regis5_2 input{width:92%;}
+    .regis6 input {width: 30%;}
+    
+    .regis2 ul li{ width: 50%; margin: 0 3%;}
+    .regis3 ul li{ width: 50%; margin: 0 3%;}
+    .regis4_1 { width: 50%; margin: 0 3%;}
+    .regis4_2 {width: 30%; margin: 0 -22% 0 0;}
+    .regis5 ul li{ width: 50%;}
+    .regis6 ul li {width: 50%; margin: 0 3%;}
+    .regis5_1{ width: 50%; margin: 0 3%;}
+    .regis5_2{margin:0 1%;}
+    .regis2 input, .regis3 input, .regis4 input, .regis5 input, .regis6 input, .phone_, #national, .moso input{
+        font-size: 12px;
+        border: none;
+        outline: none;
+        background: none;
+        height: 32px;
+        font-family: 'Roboto', sans-serif;
+        border-bottom: 2px solid #adadad;}
+
+    .sub{ width: 170.31px; height: 50px; font-weight: bolder; border-radius: 45px; outline: none;  background:#217de0;;
+        background-size: 200%; border: none; cursor: pointer;
+        color: #fff;}
+
+    .submit{margin: 70px auto; width: 8.95%;}
+
+    .regis4 li input[type="checkbox"]  {position: absolute; left: -2000%;}
+    .regis4 li input[type="checkbox"] + label { line-height: 37px; margin-right:20px;}
+    .regis4 li input[type="checkbox"] + label::before {content: ""; margin:0 10px 0 0; width: 18px;height: 18px; 
+         border: 1px solid #adadad; background: #ffffff; display: inline-block; vertical-align: -4px; border-radius: 50%; }
+    .regis4 li input[type="checkbox"]:checked + label::before {background:url(/FlyProject/img/dot.png) no-repeat center; }
+   .national_{margin: 5.5px 0 0 0;}
+   .phone_{padding: 1px 0 2px 0;
+    margin: 6px 0 0 0;}
+   
+   .op{ border: none; height:15px;}
+   .opo{ border: none; height:15px; margin: 0 1.5rem;}

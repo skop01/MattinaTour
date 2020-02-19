@@ -1,0 +1,42 @@
+ @charset "UTF-8";
+  *{margin: 0; padding: 0; text-decoration: none;}
+     li{list-style: none;}
+    a{color: black;}
+    .header a {color: #222;}
+    .header > div {position: relative; width:75rem; margin:0 auto;}
+    .header > div::after {content: ""; display: block; clear:both;}
+    .header > div h1 {float:left; padding: 1.1rem 0 1.2rem;}   
+    .header > div nav {float:right;}
+    .header{  border-bottom: 2px solid #eaf0f3;}
+    
+    .spot{position: absolute; right: 0; top: 1rem;}
+    .spot li{float:left; padding: 1.1rem 0.5rem 0.2rem;}
+    
+    .id{display: flex; position: absolute; right: 0; top: 0; width: 7.5rem; margin:10px 0;}
+    .id li {flex: 1; line-height: 50px;}
+    .id li p::before{    
+        content: '';
+        display: inline-block;
+        width: 33px;
+        height: 32px;
+        background: url(../img/user.png) no-repeat ;
+        vertical-align: middle;
+        margin: 10px;
+        }
+    .lo li a{
+        display: block;
+        text-align: center;}
+    .lo li a:hover{
+        background:#217de0;
+        color: #ffffff;
+        }
+    .id ul li:hover > ul {
+        display: block;
+        border: 1px solid #D4DCE9;}
+    .lo{display: none;}
+    .lo li {
+        width: 120px;
+        height: 50px;
+        background-color: #ffffff;
+        
+    }

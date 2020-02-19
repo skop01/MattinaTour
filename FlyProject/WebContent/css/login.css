@@ -1,0 +1,42 @@
+@charset "UTF-8";
+    *{margin: 0; padding: 0; text-decoration: none;}
+
+
+    .header{margin-bottom: 20px; }
+    .header a {color: #222;}
+    .header > div {position: relative; width:75rem; margin:0 auto;}
+    .header > div::after {content: ""; display: block; clear:both;}
+    .header > div h1 {float:left; padding: 1.1rem 0 1.2rem;}   
+    .header > div nav {float:right;}
+    .spot{position: absolute; right: 0; top: 0;}
+    .spot li{float:left; padding: 1.1rem 0.5rem 0.2rem;}
+
+
+
+    li{list-style: none;}
+    .login{width: 17.5rem; margin:100px auto;}       
+    .login h2 { font-size: 32px; color: #111111; padding: 0 0 20px;
+    border-bottom: 2px solid #111111; text-align: center; line-height: 1;}
+    .login ul {padding:33px 0 45px;}
+    .login li {padding:0 0 12px;}
+    .login li input {width: 100%; box-sizing: border-box; height: 35px; text-indent: 16px; outline: none;}
+    .login li input::-webkit-input-placeholder{font-size: 16px; color:#9fa19f;}
+    .login li input[type="checkbox"]  {position: absolute; left: -2000%;}
+    .login li input[type="checkbox"] + label { height: 36px; line-height: 36px;}
+    .login li input[type="checkbox"] + label::before {content: ""; margin:0 10px 0 0; width: 18px;height: 18px; 
+    border: 1px solid #333333; background: #ffffff; display: inline-block; vertical-align: -4px; border-radius: 1px;}
+    .login li input[type="checkbox"]:checked + label::before {background:url(FlyProject/img/check1.png) no-repeat center; }
+    .login li input[type="submit"]{display: block;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background:#217de0;;
+    background-size: 200%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    }
+    .login_in{text-align: center;}
+    .login_in p{color:#777b77cc; margin-bottom: 5px;}
+    .login_in a{color:#217de0;}
+    

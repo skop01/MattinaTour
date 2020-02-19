@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.regis_co{
+            border-radius: 10px;
+           
+            width: 35%;
+            height: 25rem;
+            margin: 10rem auto;
+           
+             }
+    .regis_co p {text-align: center;
+    padding: 0.5rem;
+    }
+    .regis_co h1 {text-align: center;
+    padding: 2rem;
+    }
+    .regis_co img{margin: 0 1rem -1rem 0;}
+
+
+    .regis_cl{ text-align: center; margin: 6rem;}
+    .regis_cl ul { margin: 5rem;}
+   
+    .regis_cl a{
+                
+                padding: 1rem 3rem 1rem 3rem;
+                border-radius: 10px;
+                background-color:#217de0;;
+                color: #ffffff;
+                }

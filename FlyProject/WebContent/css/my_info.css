@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+.user{ width: 12.5rem; margin: 0 0 0 22rem; background: white; padding: 5px 20px 5px 5px;
+            border-radius: 5px;}
+    .user p::before{   
+        content: '';
+        display: inline-block;
+        width: 40px;
+        height: 32px;
+        background: url(/FlyProject/img/user.png) no-repeat;
+        vertical-align: middle;
+        margin: 10px;}  
+
+
+
+    .banner{background: #eaf0f3; width: 100%;  padding: 2rem 0 ; margin: 0 auto; overflow: hidden;} 
+    .modify{width: 12.5rem; margin: 1rem 0 0 22rem; background: white; padding: 5px 20px 5px 5px;
+            border-radius: 5px; float: left;}
+    .modify ul li{margin: 1.5rem;}
+
+    .content {    float: left;
+    border: 1px solid #D4DCE9;
+    width: 48.3%;
+    height: 1.5rem;
+    text-align: center;
+    margin: -3.8rem 0px 0px 1rem;
+    border-radius: 5px;
+    background: #EEF3F9;
+    padding: 5px;
+    }
+.content span{font-size: 12px; line-height: 20px;}
+
+.tab_content{float: left;
+    width: 48.3%;
+    text-align: center;
+    margin: 0 0px 0px 1rem;
+    border-radius: 5px;
+    background: #ffffff;
+    padding: 5px;}
+
+
+.tab_content input[type="radio"] {display: none;}
+.tab_content input[type="radio"] + label {display: inline-block; padding: 20px;  cursor: pointer; }
+
+
+.conbox { margin:0 auto;display:none; } 
+.tab_content input[id="tab01"]:checked ~ .con1 {display: block; border-top: 2px solid  #dbdbdb; padding: 3rem;}
+.tab_content input[id="tab02"]:checked ~ .con2 {display: block; border-top: 2px solid  #dbdbdb; padding: 3rem;}
+
+.tab_content img{margin: 0 0.5rem -0.58rem 0;}
+.header img{size: 1px;}

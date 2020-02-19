@@ -1,0 +1,60 @@
+@charset "UTF-8";
+.user{ width: 12.5rem; margin: 0 0 0 22rem; background: white; padding: 5px 20px 5px 5px;
+            border-radius: 5px;}
+.user p::before{   
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 32px;
+    background: url(../img/user.png) no-repeat;
+    vertical-align: middle;
+    margin: 10px;}  
+
+
+
+.banner{background: #eaf0f3; width: 100%;  padding: 2rem 0 ; margin: 0 auto; overflow: hidden; } 
+.modify{width: 12.5rem; margin: 1rem 0 0 22rem; background: white; padding: 5px 20px 5px 5px;
+        border-radius: 5px; float: left;}
+.modify ul li{margin: 1.5rem;}
+
+   
+
+
+.tab_content{float: left;
+    width: 48.3%;
+   
+    text-align: center;
+    margin: -3.85rem 0 0 1rem;
+    border-radius: 5px;
+    background: #ffffff;
+    padding: 5px;}
+
+
+.tab_content ul li{   
+    font-size: 15px;
+    padding: 9px;
+    text-align: left;
+    color: #403e3e;
+    margin: 5px 0 0 10rem;}
+
+    .sub{width: 79px;
+    height: 35px;
+    font-weight: bolder;
+    border-radius: 45px;
+    outline: none;
+    background: #217de0;
+    background-size: 200%;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    margin: 1rem auto;}
+
+   .tab_content ul li input, select{font-size: 12px;
+        border: none;
+        outline: none;
+        background: none;
+        height: 32px;
+        font-family: 'Roboto', sans-serif;
+        border-bottom: 2px solid #adadad;}
+
+    .tab_content span{margin: 0.5rem;}  
